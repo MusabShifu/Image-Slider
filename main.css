@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: #FFFF0050;
+    padding: 20px 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    height: 300px;
+    margin:70px auto;
+}
+.image{
+    flex: 1;
+    height: 50%;
+    background-color: #FF00FF50;
+    border-radius: 5px;
+    transition:  0.7s ease-in;
+    cursor: pointer;
+    flex-basis: 0.5;
+}
+.image.active{
+    flex: 5;
+    height: 100%;
+    background-color: #FF000050;
+    border:  3px solid;
+}
